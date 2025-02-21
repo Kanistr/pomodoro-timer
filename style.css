@@ -1,0 +1,28 @@
+.focus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#timer-string {
+    font-size: 8em;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container {
+    min-width: 220px;
+}
+
+#timer-start, #timer-reset {
+    width: 100%;
+}
+
+.timer-none {
+    display: none;
+}
