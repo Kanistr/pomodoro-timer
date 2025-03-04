@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "permissions": ["storage", "alarms"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
